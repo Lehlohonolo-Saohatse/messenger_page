@@ -43,6 +43,10 @@ def send_email(sender_email, sender_name, subject, message):
 # Streamlit UI
 st.title("Collaborate with Lehlohonolo Saohatse")
 st.write("Fill in the form below to reach out for collaboration or recruitment opportunities.")
+st.link_button(
+    "🌐 View My Portfolio",
+    "https://lehlohonolo-saohatse-portfolio.vercel.app/"
+)
 
 with st.form("contact_form"):
     name = st.text_input("Your Name")
