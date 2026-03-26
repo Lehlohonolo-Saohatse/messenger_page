@@ -2,7 +2,7 @@
 """
 Created on Fri Feb  7 18:41:16 2025
 
-@author: Lehlo
+@author: Lehlohonolo Saohatse
 """
 
 import streamlit as st
